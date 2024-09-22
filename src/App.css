@@ -1,0 +1,36 @@
+/* Estilos generales para el contenedor principal */
+.App {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos hacia los extremos (formulario a la izquierda y lista a la derecha) */
+  align-items: flex-start; /* Alinea los elementos al principio (parte superior) */
+  padding: 20px; /* Espacio alrededor de los componentes */
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.col-md-5,
+.col-md-7 {
+  flex-basis: 45%; /* Asigna un tamaño flexible a los dos elementos (45% para formulario y lista) */
+}
+
+/* Otras reglas de estilo */
+.card {
+  margin: 10px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.btn {
+  margin-top: 10px;
+}

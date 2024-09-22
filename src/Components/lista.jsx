@@ -1,5 +1,4 @@
 import React from 'react';
-import './lista.css';
 
 
 const ListaEstudiantes = () => {

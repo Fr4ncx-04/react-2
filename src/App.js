@@ -9,8 +9,8 @@ function App() {
       <header className="App-header">
         <h1>Formulario y Lista de Estudiantes</h1>
         <div className="container">
-          <Formulario />  {/* Llamar al componente de formulario */}
-          <ListaEstudiantes />  {/* Llamar al componente de lista */}
+          <Formulario />  {}
+          <ListaEstudiantes />  {}
         </div>
       </header>
     </div>

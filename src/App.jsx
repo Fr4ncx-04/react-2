@@ -1,11 +1,15 @@
-import {form} from "./Components/form"
+import Formulario from "./Components/formulario.jsx";
+import ListaEstudiantes from "./Components/lista.jsx";
 
-function App() {
+const App = () => {
     return(
-        <div>
-            <formulario/>
+        <div className="container-text-center">
+            <div className="row mt-3">
+                <Formulario/>
+                <ListaEstudiantes/>
+            </div>
         </div>
     )
 }
 
-export default App
+export default App;
